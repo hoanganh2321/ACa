@@ -83,13 +83,13 @@ async function monitorConfigChanges(client) {
                                 .setAuthor({
                                     name: "Welcome to Ticket Support",
                                     iconURL: ticketIcons.mainIcon,
-                                    url: "https://discord.gg/xQF9f9yUEM"
+                                    url: "https://discord.gg/tAD4TFuxZN"
                                 })
                                 .setDescription('- Please click below menu to create a new ticket.\n\n' +
-                                    '**Ticket Guidelines:**\n' +
+                                    '**Ticket System:**\n' +
                                     '- Empty tickets are not permitted.\n' +
                                     '- Please be patient while waiting for a response from our support team.')
-                                .setFooter({ text: 'We are here to Help!', iconURL: ticketIcons.modIcon })
+                                .setFooter({ text: 'Create by @vha_kaioshin | Godez Community', iconURL: ticketIcons.modIcon })
                                 .setColor('#00FF00')
                                 .setTimestamp();
 
@@ -97,7 +97,7 @@ async function monitorConfigChanges(client) {
                                 .setCustomId('select_ticket_type')
                                 .setPlaceholder('Choose ticket type')
                                 .addOptions([
-                                    { label: '🆘 Support', value: 'support' },
+                                    { label: '🛒 Tạo Ticket', value: 'support' },
                                     { label: '📂 Suggestion', value: 'suggestion' },
                                     { label: '💜 Feedback', value: 'feedback' },
                                     { label: '⚠️ Report', value: 'report' }
