@@ -91,7 +91,7 @@ module.exports = (client) => {
             .setAuthor({ 
               name: "Voice Channel Created", 
               iconURL: "https://cdn.discordapp.com/attachments/1230824451990622299/1252165467842416680/1667-yellow-gears.gif?ex=669e0c77&is=669cbaf7&hm=22e9b0a33b94f2162c7ca81a10cf0ca43206101568581e6fd8d090dcff6e4fe3&" ,
-              url: "https://discord.gg/xfsuyAXV"
+              url: "https://discord.gg/tAD4TFuxZN"
             })
             .setDescription(`A new voice channel has been created by ${member.user.tag}.`)
             .setFooter({ text: 'ALL IN ONE', iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1253655047259160596/6186-developer-bot.gif?ex=669d88ff&is=669c377f&hm=34e4630cd54a9b4fa7d93532443e315093c755a17b9a116a2c94ff0c003aca98&' })
