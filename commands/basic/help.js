@@ -15,7 +15,7 @@ module.exports = {
     async execute(interaction) {
         if (interaction.isCommand && interaction.isCommand()) {
             const supportServerLink = "https://discord.gg/tAD4TFuxZN";
-            const githubLink = "https://www.facebook.com/Cheezze221/";
+            const githubLink = "https://github.com/GlaceYT";
             const replitLink = "https://replit.com/@GlaceYT";
             const serverId = interaction.guildId;
             const serverPrefix = config.prefixes.server_specific[serverId] || config.prefixes.default;
@@ -25,7 +25,7 @@ module.exports = {
                     {
                         title: "Bot Information",
                         description: `This bot offers a comprehensive suite of commands designed to enhance your Discord server experience. It seamlessly integrates both prefix and slash commands\n\n` +
-                            `**Developed By:** @vha_kaioshinT\n` +
+                            `**Developed By:** GlaceYT\n` +
                             `**Version:** 1.0.0\n` +
                             `**Node Version:** v20.12.2\n` +
                             `**Discord.js Version:** 14.15.3\n\n` +
@@ -38,16 +38,15 @@ module.exports = {
                             `**Usage:**\n` +
                             "Use slash commands or prefix commands to invoke bot commands.\n\n",
                         commands: [
-                            "\nJoin our Discord server - [Discord](https://discord.gg/tAD4TFuxZN)\n\n" +
-
+                            "\nJoin our Discord server - [Discord](https://discord.gg/tAD4TFuxZN)\n\n"
                         ],
                         image: "https://cdn.discordapp.com/attachments/1246408947708072027/1264191161212342282/GlaceYT_1.png?ex=669cf944&is=669ba7c4&hm=3170787ef8dfcde922996ce7bdbaf909c4a18b3e9d757cee8b020ddc70e12c84&",
                         color: "#3498db",
                         thumbnail: "https://cdn.discordapp.com/attachments/1246408947708072027/1264191552998342687/All_in_one.png?ex=669cf9a1&is=669ba821&hm=eec8a5ec58467205c61757d7b4450785b31dc739e7351f3e5ce230d7eb6fb1d9&",
                         author: {
-                            name: "Bot Community",
+                            name: "Godez Community",
                             iconURL: "https://cdn.discordapp.com/attachments/1230824451990622299/1253655046835408917/2366-discord-developers.gif?ex=6676a4be&is=6675533e&hm=0b39917ea5a274d222a001017886e3b43725191f671b34efe5349f82be57968c&",
-                            url: "https://discord.gg/tAD4TFuxZN"
+                            url: "https://discord.gg/xQF9f9yUEM"
                         }
                     }
                 ];
@@ -164,7 +163,7 @@ module.exports = {
                         author: {
                             name: `${category.charAt(0).toUpperCase() + category.slice(1)} Commands`,
                             iconURL: "",
-                            url: "https://discord.gg/xQF9f9yUEM"
+                            url: "https://discord.gg/tAD4TFuxZN"
                         }
                     };
 
