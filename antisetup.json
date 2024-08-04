@@ -1,11 +1,12 @@
 {
-    "1230863461144068140": {
+    "PutGuildIDHere": {
         "owners": [
-            "779507251282968587"
+            "779507251282968587",
+            "962252039939850240"
         ],
         "admins": [
             "1177857913235185735",
-            "962252039939850240"
+            "950352396574412820"
         ],
         "logChannelId": "1263051610318176296",
         "antiSpam": {
@@ -29,42 +30,6 @@
         },
         "antiRaid": {
             "enabled": false,
-            "joinLimit": 5,
-            "timeWindow": 60000,
-            "action": "kick"
-        }
-    },
-    "1262750919905247233": {
-        "owners": [
-            "1004206704994566164",
-            "ownerID2"
-        ],
-        "admins": [
-            "adminID1",
-            "adminID2"
-        ],
-        "logChannelId": "1264870842865553511",
-        "antiSpam": {
-            "enabled": true,
-            "messageCount": 5,
-            "timeWindow": 5000,
-            "action": "timeout",
-            "duration": 60000
-        },
-        "antiLink": {
-            "enabled": true,
-            "mode": "full",
-            "linkInterval": 60000
-        },
-        "antiNuke": {
-            "enabled": true,
-            "channelDeleteLimit": 2,
-            "channelDeleteTime": 10000,
-            "memberKickLimit": 2,
-            "memberBanLimit": 2
-        },
-        "antiRaid": {
-            "enabled": true,
             "joinLimit": 5,
             "timeWindow": 60000,
             "action": "kick"
