@@ -17,19 +17,19 @@
             "duration": 60000
         },
         "antiLink": {
-            "enabled": false,
+            "enabled": true,
             "mode": "full",
             "linkInterval": 60000
         },
         "antiNuke": {
-            "enabled": false,
+            "enabled": true,
             "channelDeleteLimit": 2,
             "channelDeleteTime": 10000,
             "memberKickLimit": 2,
             "memberBanLimit": 2
         },
         "antiRaid": {
-            "enabled": false,
+            "enabled": true,
             "joinLimit": 5,
             "timeWindow": 60000,
             "action": "kick"
