@@ -3,14 +3,14 @@
     "prefixes": {
         "default": "!",
         "server_specific": {
-            "1230863461144068140": "$"
+            "PutGuildIDHere": "/"
         }
     },
     "youtubeapi": "AIzaSyAholYB1sYcBuZu5pKfB0RTmLWyPG7rN44",
     "geniusToken": "0CHr9jtPjR7EKraXUVv6__8ELmEwFeUwt5vYAhk-is_fGOq-10-epdMzESkMPUnf",
     "hentaicommands": {
-        "1230863461144068140": {
-            "status": true
+        "PutGuildIDHere": {
+            "status": false
         }
     },
     "excessCommands": {
@@ -28,7 +28,7 @@
             "secure": false
         }
     },
-    "spotifyClientId": "f71a3da30e254962965ca2a89d6f74b9",
+   "spotifyClientId": "f71a3da30e254962965ca2a89d6f74b9",
     "spotifyClientSecret": "199a619d22dd4e55a4a2c1a7a3d70e63",
     "guilds": {
         "1230863461144068140": {
@@ -38,13 +38,13 @@
     },
     "tickets": {
         "1230863461144068140": {
-            "ticketChannelId": "1269211129922588703",
+            "ticketChannelId": "1243395705847156756",
             "adminRoleId": "1230864469580714095",
             "status": true
         }
     },
     "voiceChannelSetup": {
-        "11230863461144068140": {
+        "1230863461144068140": {
             "mainVoiceChannelId": "1243142756591861810",
             "adminRoleId": "1230864469580714095",
             "managerChannelId": "1268568743953567927",
@@ -52,7 +52,7 @@
         }
     },
     "autorole": {
-        "1230863461144068140": {
+        "PutGuildIDHere": {
             "roleId": "1230878218828124200",
             "status": true
         }
